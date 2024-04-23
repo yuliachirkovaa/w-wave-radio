@@ -1,0 +1,963 @@
+@media (max-width: 1140px) {
+  .container {
+    max-width: 854px;
+  }
+
+  .section-title {
+    margin-bottom: 29px;
+  }
+
+  .section-title--small-margin {
+    margin-bottom: 12px;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 64px;
+    border: 1px solid var(--color-light-color);
+    background-color: transparent;
+  }
+
+  .header__container {
+    padding-top: 28px;
+    padding-bottom: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .logo__image {
+    width: 112px;
+    height: 14px;
+  }
+
+  .nav--header {
+    padding-top: 47px;
+    padding-bottom: 22px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -webkit-transform: translateX(-5px);
+        -ms-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+
+  .nav__list {
+    padding-right: 0;
+    gap: 94px;
+  }
+
+  .hero__container {
+    padding-top: 84px;
+    padding-bottom: 91px;
+  }
+
+  .hero__content {
+    max-width: 539px;
+    padding-top: 8px;
+    padding-bottom: 0;
+  }
+
+  .hero__descr {
+    margin-bottom: 20px;
+  }
+
+  .hero__image {
+    min-height: 265px;
+    background-image: url("..//img/hero-1024.jpg");
+    background-position: right bottom;
+  }
+
+  .podcasts__list {
+    row-gap: 29px;
+  }
+
+  .card__content--podcasts {
+    padding-top: 40px;
+  }
+
+  .shows__list {
+    padding-top: 14px;
+  }
+
+  .card--shows {
+    width: calc((100% - 30px) / 2);
+    padding-top: 148px;
+  }
+
+  .card__content--shows {
+    padding-left: 15px;
+  }
+
+  .guests__descr {
+    max-width: 536px;
+  }
+
+  .playlists__container {
+    padding-top: 94px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 29px;
+  }
+
+  .playlists__list {
+    padding-top: 2px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+    row-gap: 31px;
+  }
+
+  .card--playlists {
+    width: calc((100% - 60px) / 3);
+    padding-top: 0;
+    padding-left: 112px;
+    background-position: left center;
+    background-size: 112px 112px;
+  }
+
+  .card__country {
+    top: 0;
+    left: 0;
+  }
+
+  .card__content--playlists {
+    padding: 38px 4px 40px 10px;
+  }
+
+  .promo__container {
+    padding-bottom: 95px;
+  }
+
+  .promo__bag {
+    width: 397px;
+    height: 349px;
+    padding-top: 115px;
+  }
+
+  .promo__new {
+    top: 118px;
+    left: 0;
+    width: 100px;
+    width: 100px;
+  }
+
+  .section-title--promo {
+    margin-bottom: 50px;
+  }
+
+  .section-title--promo::after {
+    width: 396px;
+    background-image: url("..//img/promo-wave-1024.png");
+  }
+
+  .about-us__content {
+    padding-right: 285px;
+    background-image: url("..//img/about-us-star-1024.png");
+    background-size: 255px 255px;
+  }
+
+  .about-us__list {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .card--about-us {
+    width: calc((100% - 30px) / 2);
+  }
+
+  .card__name--about-us {
+    padding-top: 23px;
+  }
+
+  .footer::after {
+    bottom: 35px;
+    background-image: url("..//img/footer-wave-1024.png");
+  }
+
+  .footer__container {
+    padding-top: 95px;
+  }
+
+  .logo__image--footer {
+    width: 160px;
+    height: 20px;
+  }
+
+  .footer__socials {
+    gap: 17px;
+  }
+
+  .nav__list--footer {
+    -webkit-column-gap: 98px;
+       -moz-column-gap: 98px;
+            column-gap: 98px;
+    row-gap: 18px;
+  }
+
+  .footer__small {
+    padding-top: 15px;
+  }
+}
+
+
+
+@media (max-width: 860px) {
+  .container {
+    max-width: 570px;
+  }
+
+  .header::after {
+    height: 62px;
+  }
+
+  .nav--header {
+    padding-top: 44px;
+  }
+
+  .nav__list {
+    gap: 42px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .hero__content {
+    max-width: 539px;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .podcasts__container {
+    padding-bottom: 92px;
+  }
+
+  .card--podcasts {
+    width: 100%;
+  }
+
+  .shows {
+    position: relative;
+  }
+
+  .shows::after {
+    content: "";
+    position: absolute;
+    bottom: 157px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-light-color);
+  }
+
+  .shows__container {
+    padding-top: 97px;
+    padding-bottom: 28px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 90px;
+  }
+
+  .section-title--desctop {
+    display: none;
+  }
+
+  .section-title--mobile {
+    margin-bottom: 19px;
+    display: block;
+  }
+
+  .shows__content {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+  .shows__archive {
+    width: 343px;
+    padding-top: 0;
+    padding-left: 90px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    background-image: url("..//img/shows-mic-768.jpg");
+    background-position: left center;
+    background-size: 70px 96px;
+  }
+
+  .guests__container {
+    padding-bottom: 97px;
+  }
+
+  .card--guests {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .card__picture {
+    min-width: 540px;
+    height: 340px;
+  }
+
+  .card__image {
+    min-width: 540px;
+    height: 340px;
+  }
+
+  .card__content--guests {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .card__descr--guests {
+    margin-bottom: 28px;
+    max-width: 362px;
+  }
+
+  .playlists__container {
+    padding-bottom: 112px;
+  }
+
+  .card--playlists {
+    width: calc((100% - 30px) / 2);
+  }
+
+  .promo__container {
+    padding-top: 53px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+
+  .promo__image {
+    padding-top: 0;
+  }
+
+  .promo__bag {
+    width: 540px;
+    height: 474px;
+    padding-top: 0;
+  }
+
+  .promo__new {
+    top: 0;
+    left: 0;
+    width: 160px;
+    width: 160px;
+  }
+
+  .promo__content {
+    max-width: 542px;
+  }
+
+  .section-title--promo {
+    max-width: 440px;
+  }
+
+  .section-title--promo::after {
+    width: 539px;
+    background-image: url("..//img/promo-wave-768.png");
+  }
+
+  .about-us__container {
+    padding-bottom: 91px;
+  }
+
+  .about-us__content {
+    position: relative;
+    margin-bottom: 172px;
+    padding-right: 0;
+    background-image: none;
+  }
+
+  .about-us__descr--second {
+    position: relative;
+  }
+
+  .about-us__descr--second::after {
+    content: "";
+    position: absolute;
+    left: -114px;
+    bottom: -143px;
+    width: 654px;
+    height: 114px;
+    background-image: url("..//img/about-us-absolute.png");
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .form__input-wrapper {
+    width: 100%;
+  }
+
+  .footer::after {
+    background-image: url("..//img/footer-wave-768.png");
+  }
+
+  .footer__container {
+    padding-top: 94px;
+  }
+
+  .footer__top {
+    margin-bottom: 83px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 77px;
+  }
+
+  .footer__socials {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+
+  .socials {
+    padding-left: 5px;
+    gap: 21px;
+  }
+
+  .link-without-text--footer {
+    width: 36px;
+    height: 36px;
+  }
+
+  .link-without-text__social {
+    padding: 3px;
+  }
+
+  .nav--footer {
+    width: 100%;
+    height: 112px;
+  }
+
+  .nav__list--footer {
+    -webkit-column-gap: 146px;
+       -moz-column-gap: 146px;
+            column-gap: 146px;
+    row-gap: 27px;
+    -webkit-transform: translateX(-5px);
+        -ms-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+}
+
+
+
+@media (max-width: 570px) {
+  .container {
+    max-width: 316px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .btn {
+    padding: 9.5px 14.5px;
+  }
+
+  .btn--big {
+    padding: 18px 46px;
+    font-size: 16px;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .link {
+    color: var(--color-primary);
+    font-size: 12px;
+  }
+
+  .link--header {
+    color: var(--color-black);
+    font-size: 16px;
+  }
+
+  .link--footer {
+    color: var(--color-white);
+  }
+
+  .header::after {
+    height: 50px;
+  }
+
+  .header__container {
+    padding-top: 14px;
+  }
+
+  .logo__image {
+    width: 87px;
+    height: 10px;
+  }
+
+  .nav--header {
+    padding-top: 27px;
+    padding-bottom: 17px;
+    overflow-x: auto;
+  }
+
+  .nav__list {
+    gap: 17px;
+  }
+
+  .hero__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hero__content {
+    padding-top: 0;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-size: 32px;
+  }
+
+  .hero__descr {
+    font-size: 14px;
+  }
+
+  .podcasts__container {
+    padding-top: 53px;
+    padding-bottom: 54px;
+  }
+
+  .podcasts__list {
+    gap: 30.5px;
+  }
+
+  .card--podcasts {
+    padding-left: 0;
+    padding-top: 102px;
+    background-position: top center;
+  }
+
+  .podcasts-image-1 {
+    background-image: url("..//img/podcasts-1-320.jpg");
+  }
+
+  .podcasts-image-2 {
+    background-image: url("..//img/podcasts-2-320.jpg");
+  }
+
+  .podcasts-image-3 {
+    background-image: url("..//img/podcasts-3-320.jpg");
+  }
+
+  .podcasts-image-4 {
+    background-image: url("..//img/podcasts-4-320.jpg");
+  }
+
+  .podcasts-image-5 {
+    background-image: url("..//img/podcasts-5-320.jpg");
+  }
+
+  .podcasts-image-6 {
+    background-image: url("..//img/podcasts-6-320.jpg");
+  }
+
+  .podcasts-image-7 {
+    background-image: url("..//img/podcasts-7-320.jpg");
+  }
+
+  .podcasts-image-8 {
+    background-image: url("..//img/podcasts-8-320.jpg");
+  }
+
+  .card__date {
+    left: -1px;
+    top: -1px;
+    width: 51px;
+    height: 18px;
+    padding: 4px 7px 6px 9px;
+  }
+
+  .card__content--podcasts {
+    padding-top: 0;
+    padding-bottom: 30px;
+    padding-left: 16px;
+  }
+
+  .card__name--podcasts {
+    margin-bottom: 4px;
+    padding-top: 8.5px;
+    font-size: 16px;
+  }
+
+  .card__descr--podcasts {
+    font-size: 12px;
+  }
+
+  .shows__container {
+    padding-top: 55px;
+    padding-bottom: 53px;
+    gap: 0;
+  }
+
+  .shows__list {
+    margin-bottom: 61px;
+    padding-top: 10px;
+  }
+
+  .card--shows {
+    padding-top: 50px;
+    min-height: 149px;
+  }
+
+  .shows-image-1 {
+    background-image: url("..//img/shows-1-320.jpg");
+  }
+
+  .shows-image-2 {
+    background-image: url("..//img/shows-2-320.jpg");
+  }
+
+  .shows-image-3 {
+    background-image: url("..//img/shows-3-320.jpg");
+  }
+
+  .shows-image-4 {
+    background-image: url("..//img/shows-4-320.jpg");
+  }
+
+  .shows-image-5 {
+    background-image: url("..//img/shows-5-320.jpg");
+  }
+
+  .shows-image-6 {
+    background-image: url("..//img/shows-6-320.jpg");
+  }
+
+  .card__content--shows {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card__name--shows {
+    font-size: 12px;
+  }
+
+  .card__descr--shows {
+    margin-bottom: auto;
+    font-size: 9px;
+  }
+
+  .link__arrow {
+    fill: var(--color-primary);
+  }
+
+  .shows__content {
+    width: 100%;
+  }
+
+  .shows__archive {
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: none;
+  }
+
+  .shows__archive::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    width: 77px;
+    height: 105px;
+    background-image: url("..//img/shows-mic-320.jpg");
+  }
+
+  .btn--archive {
+    margin-bottom: 0;
+    padding: 9.5px 31px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-transform: translateX(-5px);
+        -ms-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+
+  .shows__descr {
+    margin-bottom: 7px;
+    max-width: 166px;
+    font-size: 14px;
+    -webkit-transform: translateX(25px);
+        -ms-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+
+  .shows::after {
+    bottom: 190px;
+  }
+
+  .guests__container {
+    padding-top: 55px;
+    padding-bottom: 57px;
+  }
+
+  .guests__listing {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .guests__descr {
+    margin-bottom: 27px;
+    font-size: 14px;
+  }
+
+  .section-title--small-margin {
+    margin-bottom: 12px;
+  }
+
+  .guests__list {
+    gap: 30px;
+  }
+
+  .card__picture {
+    min-width: 256px;
+    height: 159px;
+  }
+
+  .card__image {
+    min-width: 256px;
+    height: 159px;
+  }
+
+  .card__content--guests {
+    padding-top: 12px;
+  }
+
+  .card__name--guests {
+    margin-bottom: 11px;
+  }
+
+  .playlists__container {
+    padding-top: 55px;
+    padding-bottom: 54px;
+    gap: 30px;
+  }
+
+  .playlists__info {
+    min-width: 256px;
+  }
+
+  .small {
+    max-width: 250px;
+    font-size: 12px;
+  }
+
+  .small--italic {
+    margin-bottom: 12px;
+  }
+
+  .playlists__list {
+    row-gap: 30px;
+  }
+
+  .card--playlists {
+    min-height: 159px;
+    padding-top: 113px;
+    padding-left: 0;
+    background-position: top center;
+    background-size: 113px 113px;
+  }
+
+  .card__country {
+    left: 89px;
+    right: 0;
+  }
+
+  .card__content--playlists {
+    padding: 9px 8px 10px 10px;
+  }
+
+  .card__name--playlists {
+    font-size: 12px;
+  }
+
+  .card__descr--playlists {
+    font-size: 9px;
+  }
+
+  .promo__container {
+    padding-bottom: 54px;
+    gap: 39px;
+  }
+
+  .promo__bag {
+    width: 256px;
+    height: 225px;
+  }
+
+  .promo__new {
+    width: 62px;
+    height: 62px;
+  }
+
+  .section-title--promo {
+    margin-bottom: 39px;
+  }
+
+  .section-title--promo::after {
+    bottom: -21px;
+    width: 254px;
+    background-image: url("..//img/promo-wave-320.png");
+  }
+
+  .promo__descr {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .promo__price {
+    margin-bottom: 18px;
+    padding-top: 0;
+    font-size: 24px;
+  }
+
+  .btn--with-img {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .about-us__container {
+    padding-top: 55px;
+    padding-bottom: 52px;
+  }
+
+  .about-us__content {
+    margin-bottom: 30px;
+  }
+
+  .about-us__descr {
+    font-size: 14px;
+  }
+
+  .about-us__descr--first {
+    margin-bottom: 5px;
+  }
+
+  .about-us__descr--second {
+    line-height: 1.56;
+  }
+
+  .about-us__descr--second::after {
+    display: none;
+  }
+
+  .about-us__list {
+    row-gap: 32px;
+  }
+
+  .card__name--about-us {
+    margin-bottom: 4px;
+    padding-top: 6px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .card__descr--about-us {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .form__wrapper {
+    gap: 30px;
+  }
+
+  .form__input {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 24px;
+    font-size: 16px;
+  }
+
+  .form__input--textarea {
+    border-radius: 20px;
+  }
+
+  .btn--form {
+    margin-bottom: 16px;
+  }
+
+  .custom-checkbox__text {
+    font-size: 9px;
+  }
+
+  .footer::after {
+    background-image: url("..//img/footer-wave-320.png");
+  }
+
+  .footer__container {
+    max-width: 100%;
+    padding-top: 54px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo__image--footer {
+    width: 160px;
+    height: 20px;
+  }
+
+  .footer__top {
+    margin-bottom: 17px;
+    gap: 52px;
+  }
+
+  .nav--footer {
+    padding-top: 26px;
+    padding-bottom: 30px;
+    height: 216px;
+    background-color: var(--color-black);
+  }
+
+  .nav__list--footer {
+    padding-left: calc((100% - 256px) / 2);
+    padding-right: calc((100% - 256px) / 2);
+  }
+
+  .footer__small {
+    font-size: 12px;
+  }
+}
