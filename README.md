@@ -1,1 +1,4 @@
-Developed the frontend of the W-Wave radio website (adaptive semantic Pixel Perfect layout, meeting the principles of accessibility and cross-browser).
+**Веб-сайт радио W-Wave**
+
+Адаптивная, доступная, кроссбраузерная верстка
+Ссылка: https://yuliachirkovaa.github.io/w-wave-radio/ 
